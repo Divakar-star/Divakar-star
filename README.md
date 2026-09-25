@@ -16,7 +16,7 @@ I build LLM applications that are meant to run in production. That means guardra
 | Project | What it does | Stack |
 |---|---|---|
 | **[hands-computer-use](https://github.com/Divakar-star/hands-computer-use)** | An LLM learns a task in a legacy web app **once**. The run is compiled into a typed capability that replays deterministically with **no model in the loop**. Includes human handoff, a guardrail policy and 88+ tests. | Python, Playwright, OpenAI/Anthropic APIs |
-| **[payment-ai-agent](https://github.com/Divakar-star/Payment-AI-Agent-)** | Multi-agent payment analytics and policy assistant. Supervisor routing, read-only SQL tools, RAG over policy docs, and input/output guardrails that mask card data and block ungrounded answers. | LangGraph, SQLite, Streamlit, pytest |
+| **[payment-ai-agent](https://github.com/Divakar-star/payment-ai-agent)** | Multi-agent payment analytics and policy assistant. Supervisor routing, read-only SQL tools, RAG over policy docs, and input/output guardrails that mask card data and block ungrounded answers. | LangGraph, SQLite, Streamlit, pytest |
 | **[AI-Prompt-Harness](https://github.com/Divakar-star/AI-Prompt-Harness)** | LLM gateway that sends every prompt through an 8-stage pipeline: validation, injection detection, policy checks, model routing, a cost guard, execution, response validation and quality scoring. Every step is traced to SQLite. | Streamlit, Gemini / OpenAI-compatible APIs, SQLite |
 | **[Customer-Support-RAG-Assistant](https://github.com/Divakar-star/Customer-Support-RAG-Assistant)** | Answers support questions from policy documents with citations. It refuses when the documents don't support an answer. | FastAPI, FAISS, sentence-transformers, Gemini |
 
@@ -24,11 +24,11 @@ I build LLM applications that are meant to run in production. That means guardra
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python · SQL
-**LLM & Agents:** LangGraph · LangChain · OpenAI · Anthropic · Gemini · prompt engineering · tool calling
-**RAG:** FAISS · embeddings (sentence-transformers) · retrieval evaluation
-**Backend & UI:** FastAPI · Streamlit · SQLite
-**Cloud & MLOps:** AWS · Docker · pytest · Git
+- **Languages:** Python · SQL
+- **LLM & Agents:** LangGraph · LangChain · OpenAI · Anthropic · Gemini · prompt engineering · tool calling
+- **RAG:** FAISS · embeddings (sentence-transformers) · retrieval evaluation
+- **Backend & UI:** FastAPI · Streamlit · SQLite
+- **Cloud & MLOps:** AWS · Docker · pytest · Git
 
 ---
 
