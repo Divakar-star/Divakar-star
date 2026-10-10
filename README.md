@@ -1,4 +1,4 @@
-<h1 align="center">Divakar S</h1>
+<h1 align="center">Divakar Saragadam</h1>
 <h3 align="center">AI Engineer · Generative AI · Agentic AI · RAG · LLMOps</h3>
 
 <p align="center">
